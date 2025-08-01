@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -17,8 +21,9 @@ body {
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
+  min-height: 100vh;         /* Important for modal viewport anchoring */
+  color: #ffffff;
+  background: #1E3A8A;
   font-family: Arial, Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

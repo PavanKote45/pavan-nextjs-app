@@ -1,0 +1,17 @@
+/* components/Navbar.module.css */
+.nav {
+  background-color: #333;
+  padding: 10px;
+}
+.navList {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+.navList li a {
+  color: white;
+  text-decoration: none;
+}
+.navList li a:hover {
+  text-decoration: underline;
+}
